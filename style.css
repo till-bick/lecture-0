@@ -1,0 +1,106 @@
+#para2 {
+  border: 2px solid white;
+  color: white;
+  font-size: larger;
+  font-family: SimSun;
+  background-color: black;
+  text-align: left;
+}
+
+#para8 {
+  border: 2px solid black;
+  text-align: center;
+  background-color: white;
+  width: 300px;
+  text-align: center;
+  color: black;
+  font-size: medium;
+  font-family: SimSun;
+}
+
+#para3 {
+  border: 2px solid white;
+  background-color: black;
+  width: 400px;
+  text-align: center;
+  padding-top: 1px;
+  padding-right: 1px;
+  padding-bottom: 1px;
+  padding-left: 1px;
+  font-size: larger;
+  color: white;
+  font-family: SimSun;
+}
+
+#para4 {
+  text-align: center;
+  font-size: larger;
+  color: black;
+  font-family: "Lucida Bright";
+  background-color: white;
+}
+
+#para5 {
+  text-align: center;
+  font-size: larger;
+  color: black;
+  font-family: "Lucida Bright";
+  background-color: white;
+  border: 1px solid black;
+  text-align: center;
+  width: 200px;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  color: blue;
+  background-color: white;
+}
+
+#para6 {
+  text-align: left;
+  font-family: "Lucida Sans";
+  font-size: small;
+  color: darkslategrey;
+}
+
+#para7 {
+  text-align: left;
+  width: 45px;
+  color: black;
+  background-color: lightgray;
+}
+
+table, th, td {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: white;
+  color: black;
+  border-collapse: collapse;
+  padding: 0.3em 0.5em;
+  margin-left: 1em;
+}
+
+caption {
+  background-color: white;
+  color: black;
+  border: 1px solid #666;
+}
+
+td {
+  background-image: linear-gradient(#f9f9f9, #e3e3e3);
+  border-left: 1px solid #49566b;
+  border-right: 1px solid #49566b;
+}
+
+tfoot {
+  text-align: center;
+  border: 2px solid white;
+  color: blue;
+  font-size: xx-small;
+  font-family: Perpetua;
+  background-color: black;
+}
+
+/*# sourceMappingURL=style.css.map */

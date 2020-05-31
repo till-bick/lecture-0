@@ -1,0 +1,137 @@
+﻿/*Farben*/
+$primary-color:white;
+$secondary-color:black;
+$teritary-color:darkslategrey;
+$fourth-color: lightgray;
+$fifth-color:blue; 
+
+/*Schriftarten*/
+$pimary-font-family: Perpetua;
+$secondary-font-family:SimSun;
+$teritary-font-family:Lucida Bright; 
+$fourth-font-family:Lucida sans;
+
+/*Justieren*/
+@mixin center {
+    padding-top: 1px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+}
+
+/*Flexibeles Grid-Raster*/
+@media (min-width: 50em) {
+    article {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+h1 {
+    border: 2px solid black;
+    width: 400px;
+    text-align: center;
+    color: black;
+    font-size: medium;
+    font-family:$pimary-font-family;
+    font-weight: bold;
+    background-color: $primary-color;
+}
+
+#para2 {
+    border: 2px solid white;
+    color: $primary-color;
+    font-size: larger;
+    font-family: $secondary-font-family;
+    background-color: $secondary-color;
+    text-align: left;
+}
+
+#para8 {
+    border: 2px solid black;
+    text-align: center;
+    background-color: $primary-color;
+    width: 300px;
+    text-align: center;
+    color: black;
+    font-size: medium;
+    font-family:$secondary-font-family;
+}
+
+#para3 {
+    border: 2px solid white;
+    background-color: $secondary-color;
+    width: 400px;
+    text-align: center;
+    @include center; 
+    font-size: larger;
+    color: $primary-color;
+    font-family:$secondary-font-family;
+}
+
+#para4 {
+    text-align: center;
+    font-size: x-large;
+    color: $secondary-color;
+    font-family:$teritary-font-family;
+    background-color: $primary-color;
+}
+
+#para5 {
+    text-align: center;
+    font-size: larger;
+    color: $secondary-color;
+    font-family: $teritary-font-family;
+    background-color: $primary-color;
+    border: 1px solid black;
+    text-align: center;
+    width: 200px;
+    @include center;
+    color: $fifth-color;
+}
+
+#para6 {
+    text-align: left;
+    font-family:$fourth-font-family;
+    font-size: small;
+    color: $teritary-color;
+}
+
+#para7 {
+    text-align: left;
+    width: 45px;
+    color:$secondary-color;
+    background-color:$fourth-color;
+}
+
+table, th, td {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color:$primary-color;
+    color: black;
+    border-collapse: collapse;
+    padding: 0.3em 0.5em;
+    margin-left: 1em;
+}
+
+caption {
+    background-color:$primary-color;
+    color:$secondary-color;
+    border: 1px solid #666;
+}
+
+td {
+    background-image: linear-gradient(#f9f9f9, #e3e3e3);
+    border-left: 1px solid #49566b;
+    border-right: 1px solid #49566b;
+}
+
+tfoot {
+    border: 2px solid white;
+    width:200px;
+    @include center;
+    color: $fifth-color;
+    font-size: xx-small;
+    font-family:$pimary-font-family;
+    background-color: $secondary-color;
+}
